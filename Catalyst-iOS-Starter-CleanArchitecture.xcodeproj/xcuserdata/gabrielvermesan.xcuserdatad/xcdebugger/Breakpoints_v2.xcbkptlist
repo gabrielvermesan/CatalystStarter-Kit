@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F144596F-2196-42DC-9894-D4F645C53477"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F8B7B00-0C11-46A7-B59F-CAA09327566E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Core/Repository/Sources/Protocols/NetworkBoundResource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "load()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F33274BA-E757-4D05-842E-12E1FDCB2AFF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Core/Repository/Sources/Protocols/NetworkBoundResource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "load()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F65DAA60-9C8A-4DEA-8756-E96D669B239D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Core/Storage/Sources/Database/PersistentContainer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "saveContext(context:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F65DAA60-9C8A-4DEA-8756-E96D669B239D - ee360cb5095082f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Storage.PersistentContainerImpl.saveContext(context: __C.NSManagedObjectContext) -&gt; Swift.Bool"
+                  moduleName = "Catalyst-iOS-Starter-CleanArchitecture-SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gabrielvermesan/Documents/TW/Catalyst-iOS-Starter-CleanArchitecture/Core/Storage/Sources/Database/PersistentContainer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "324">
+               </Location>
+               <Location
+                  uuid = "F65DAA60-9C8A-4DEA-8756-E96D669B239D - ee360cb5095082f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Storage.PersistentContainerImpl.saveContext(context: __C.NSManagedObjectContext) -&gt; Swift.Bool"
+                  moduleName = "Catalyst-iOS-Starter-CleanArchitecture-SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gabrielvermesan/Documents/TW/Catalyst-iOS-Starter-CleanArchitecture/Core/Storage/Sources/Database/PersistentContainer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "382">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B4A6C154-0C1B-4979-88D8-12E2BA228DF0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Packages/UseCase/Sources/Mainboard/Model/UserDetails.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "init?(response:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B4A6C154-0C1B-4979-88D8-12E2BA228DF0 - f93471cef3c7cbfb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UseCase.UserDetails.init(response: Swift.Optional&lt;Repository.UserResponse&gt;) -&gt; Swift.Optional&lt;UseCase.UserDetails&gt;"
+                  moduleName = "Catalyst-iOS-Starter-CleanArchitecture-SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gabrielvermesan/Documents/TW/Catalyst-iOS-Starter-CleanArchitecture/Packages/UseCase/Sources/Mainboard/Model/UserDetails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "77">
+               </Location>
+               <Location
+                  uuid = "B4A6C154-0C1B-4979-88D8-12E2BA228DF0 - f93471cef3c7cbfb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UseCase.UserDetails.init(response: Swift.Optional&lt;Repository.UserResponse&gt;) -&gt; Swift.Optional&lt;UseCase.UserDetails&gt;"
+                  moduleName = "Catalyst-iOS-Starter-CleanArchitecture-SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gabrielvermesan/Documents/TW/Catalyst-iOS-Starter-CleanArchitecture/Packages/UseCase/Sources/Mainboard/Model/UserDetails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "208">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "676975A7-6E86-47B8-96D4-3A0AA96C06E3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Packages/Repository/Sources/Factories/UserEntityFactory.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "createOrUpdateUser(type:dto:context:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

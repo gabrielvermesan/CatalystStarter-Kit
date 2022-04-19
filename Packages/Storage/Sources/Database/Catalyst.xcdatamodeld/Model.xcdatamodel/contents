@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21D49" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="BaseEntity" representedClassName="BaseEntity" isAbstract="YES" syncable="YES" codeGenerationType="class">
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="identifier" optional="YES" attributeType="String"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="BaseUserEntity" representedClassName="BaseUserEntity" isAbstract="YES" parentEntity="BaseEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="avatar" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="profile" optional="YES" attributeType="String"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CommentEntity" representedClassName="CommentEntity" parentEntity="BaseEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="comment" optional="YES" attributeType="String"/>
+        <relationship name="commenter" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CommentUserEntity" inverseName="comments" inverseEntity="CommentUserEntity"/>
+        <relationship name="tweet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TweetEntity" inverseName="comments" inverseEntity="TweetEntity"/>
+    </entity>
+    <entity name="CommentUserEntity" representedClassName="CommentUserEntity" parentEntity="BaseUserEntity" syncable="YES" codeGenerationType="class">
+        <relationship name="comments" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CommentEntity" inverseName="commenter" inverseEntity="CommentEntity"/>
+    </entity>
+    <entity name="CurrentUserEntity" representedClassName="CurrentUserEntity" parentEntity="BaseUserEntity" syncable="YES" codeGenerationType="class">
+        <relationship name="tweets" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="TweetEntity"/>
+    </entity>
+    <entity name="TweetEntity" representedClassName="TweetEntity" parentEntity="BaseEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="content" optional="YES" attributeType="String"/>
+        <relationship name="comments" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="CommentEntity" inverseName="tweet" inverseEntity="CommentEntity"/>
+        <relationship name="images" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="TweetImageEntity" inverseName="tweet" inverseEntity="TweetImageEntity"/>
+        <relationship name="sender" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TweetSenderEntity" inverseName="tweet" inverseEntity="TweetSenderEntity"/>
+    </entity>
+    <entity name="TweetImageEntity" representedClassName="TweetImageEntity" parentEntity="BaseEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="urlString" optional="YES" attributeType="String"/>
+        <relationship name="tweet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TweetEntity" inverseName="images" inverseEntity="TweetEntity"/>
+    </entity>
+    <entity name="TweetSenderEntity" representedClassName="TweetSenderEntity" parentEntity="BaseUserEntity" syncable="YES" codeGenerationType="class">
+        <relationship name="tweet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TweetEntity" inverseName="sender" inverseEntity="TweetEntity"/>
+    </entity>
+    <elements>
+        <element name="BaseEntity" positionX="-63" positionY="-18" width="128" height="74"/>
+        <element name="BaseUserEntity" positionX="-54" positionY="18" width="128" height="89"/>
+        <element name="CommentEntity" positionX="-27" positionY="45" width="128" height="74"/>
+        <element name="CommentUserEntity" positionX="-36" positionY="36" width="128" height="44"/>
+        <element name="CurrentUserEntity" positionX="-45" positionY="27" width="128" height="44"/>
+        <element name="TweetEntity" positionX="-36" positionY="45" width="128" height="89"/>
+        <element name="TweetImageEntity" positionX="-18" positionY="54" width="128" height="59"/>
+        <element name="TweetSenderEntity" positionX="-36" positionY="45" width="128" height="44"/>
+    </elements>
+</model>

@@ -25,9 +25,13 @@
 		1E1155F62804139900231313 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1155F52804139900231313 /* NotificationController.swift */; };
 		1E1155F82804139900231313 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1155F72804139900231313 /* ComplicationController.swift */; };
 		1E1155FA2804139A00231313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E1155F92804139A00231313 /* Assets.xcassets */; };
-		1E1156062804139A00231313 /* Catalyst_iOS_Starter_CleanArchitecture_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1156052804139A00231313 /* Catalyst_iOS_Starter_CleanArchitecture_WatchKit_AppTests.swift */; };
-		1E1156102804139A00231313 /* Catalyst_iOS_Starter_CleanArchitecture_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E11560F2804139A00231313 /* Catalyst_iOS_Starter_CleanArchitecture_WatchKit_AppUITests.swift */; };
-		1E1156122804139A00231313 /* Catalyst_iOS_Starter_CleanArchitecture_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1156112804139A00231313 /* Catalyst_iOS_Starter_CleanArchitecture_WatchKit_AppUITestsLaunchTests.swift */; };
+		1E6334372808217B00AF8D0C /* CustomViews in Frameworks */ = {isa = PBXBuildFile; productRef = 1E6334362808217B00AF8D0C /* CustomViews */; };
+		1E8939032806D9DF00F7C790 /* UseCase in Frameworks */ = {isa = PBXBuildFile; productRef = 1E8939022806D9DF00F7C790 /* UseCase */; };
+		1ED9C8D12806D4C800F6E52C /* Catalyst_iOS_Starter_CleanArchitecture_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED9C8D02806D4C800F6E52C /* Catalyst_iOS_Starter_CleanArchitecture_SwiftUIApp.swift */; };
+		1ED9C8D32806D4C800F6E52C /* MainboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED9C8D22806D4C800F6E52C /* MainboardView.swift */; };
+		1ED9C8D52806D4CA00F6E52C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED9C8D42806D4CA00F6E52C /* Assets.xcassets */; };
+		1ED9C8D82806D4CA00F6E52C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED9C8D72806D4CA00F6E52C /* Preview Assets.xcassets */; };
+		1ED9C8DE2806D52100F6E52C /* MainboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED9C8DD2806D52100F6E52C /* MainboardViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,20 +62,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1E1155EB2804139900231313;
 			remoteInfo = "Catalyst-iOS-Starter-CleanArchitecture WatchKit Extension";
-		};
-		1E1156022804139A00231313 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1E1155AC2804139300231313 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1E1155EB2804139900231313;
-			remoteInfo = "Catalyst-iOS-Starter-CleanArchitecture WatchKit Extension";
-		};
-		1E11560C2804139A00231313 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1E1155AC2804139300231313 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1E1155DD2804139700231313;
-			remoteInfo = "Catalyst-iOS-Starter-CleanArchitecture WatchKit App";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -125,11 +115,21 @@
 		1E1155F92804139A00231313 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E1155FB2804139A00231313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E1155FC2804139A00231313 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		1E1156012804139A00231313 /* Catalyst-iOS-Starter-CleanArchitecture WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Catalyst-iOS-Starter-CleanArchitecture WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E1156052804139A00231313 /* Catalyst_iOS_Starter_CleanArchitecture_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalyst_iOS_Starter_CleanArchitecture_WatchKit_AppTests.swift; sourceTree = "<group>"; };
-		1E11560B2804139A00231313 /* Catalyst-iOS-Starter-CleanArchitecture WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Catalyst-iOS-Starter-CleanArchitecture WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E11560F2804139A00231313 /* Catalyst_iOS_Starter_CleanArchitecture_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalyst_iOS_Starter_CleanArchitecture_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
-		1E1156112804139A00231313 /* Catalyst_iOS_Starter_CleanArchitecture_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalyst_iOS_Starter_CleanArchitecture_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1E17CDE528081A1900C96B9E /* NetworkService */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = NetworkService; path = Packages/NetworkService; sourceTree = "<group>"; };
+		1E17CDE628081A1900C96B9E /* Repository */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Repository; path = Packages/Repository; sourceTree = "<group>"; };
+		1E17CDE728081A1900C96B9E /* Common */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Common; path = Packages/Common; sourceTree = "<group>"; };
+		1E17CDE828081A1900C96B9E /* UseCase */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = UseCase; path = Packages/UseCase; sourceTree = "<group>"; };
+		1E17CDE928081A1900C96B9E /* Storage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Storage; path = Packages/Storage; sourceTree = "<group>"; };
+		1E17CDF528081F0500C96B9E /* CustomViews */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = CustomViews; path = Packages/CustomViews; sourceTree = "<group>"; };
+		1EB480A9280E960D00FE885B /* Catalyst-iOS-Starter-CleanArchitecture-SwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Catalyst-iOS-Starter-CleanArchitecture-SwiftUI.entitlements"; sourceTree = "<group>"; };
+		1EB480AA280E9A6A00FE885B /* Catalyst-iOS-Starter-CleanArchitecture WatchKit App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Catalyst-iOS-Starter-CleanArchitecture WatchKit App.entitlements"; sourceTree = "<group>"; };
+		1EB480AB280E9A8400FE885B /* Catalyst-iOS-Starter-CleanArchitecture WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Catalyst-iOS-Starter-CleanArchitecture WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		1ED9C8CE2806D4C800F6E52C /* Catalyst-iOS-Starter-CleanArchitecture-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Catalyst-iOS-Starter-CleanArchitecture-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ED9C8D02806D4C800F6E52C /* Catalyst_iOS_Starter_CleanArchitecture_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalyst_iOS_Starter_CleanArchitecture_SwiftUIApp.swift; sourceTree = "<group>"; };
+		1ED9C8D22806D4C800F6E52C /* MainboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainboardView.swift; sourceTree = "<group>"; };
+		1ED9C8D42806D4CA00F6E52C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1ED9C8D72806D4CA00F6E52C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1ED9C8DD2806D52100F6E52C /* MainboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainboardViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,17 +161,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1E1155FE2804139A00231313 /* Frameworks */ = {
+		1ED9C8CB2806D4C800F6E52C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1E1156082804139A00231313 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				1E6334372808217B00AF8D0C /* CustomViews in Frameworks */,
+				1E8939032806D9DF00F7C790 /* UseCase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,13 +177,19 @@
 			isa = PBXGroup;
 			children = (
 				1E1155B62804139400231313 /* Catalyst-iOS-Starter-CleanArchitecture */,
+				1ED9C8CF2806D4C800F6E52C /* Catalyst-iOS-Starter-CleanArchitecture-SwiftUI */,
 				1E1155CD2804139700231313 /* Catalyst-iOS-Starter-CleanArchitectureTests */,
 				1E1155D72804139700231313 /* Catalyst-iOS-Starter-CleanArchitectureUITests */,
 				1E1155E22804139700231313 /* Catalyst-iOS-Starter-CleanArchitecture WatchKit App */,
 				1E1155F02804139900231313 /* Catalyst-iOS-Starter-CleanArchitecture WatchKit Extension */,
-				1E1156042804139A00231313 /* Catalyst-iOS-Starter-CleanArchitecture WatchKit AppTests */,
-				1E11560E2804139A00231313 /* Catalyst-iOS-Starter-CleanArchitecture WatchKit AppUITests */,
 				1E1155B52804139400231313 /* Products */,
+				1E17CDF528081F0500C96B9E /* CustomViews */,
+				1E17CDE728081A1900C96B9E /* Common */,
+				1E17CDE528081A1900C96B9E /* NetworkService */,
+				1E17CDE628081A1900C96B9E /* Repository */,
+				1E17CDE928081A1900C96B9E /* Storage */,
+				1E17CDE828081A1900C96B9E /* UseCase */,
+				1E6334352808217B00AF8D0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -200,8 +201,7 @@
 				1E1155D42804139700231313 /* Catalyst-iOS-Starter-CleanArchitectureUITests.xctest */,
 				1E1155DE2804139700231313 /* Catalyst-iOS-Starter-CleanArchitecture WatchKit App.app */,
 				1E1155EC2804139900231313 /* Catalyst-iOS-Starter-CleanArchitecture WatchKit Extension.appex */,
-				1E1156012804139A00231313 /* Catalyst-iOS-Starter-CleanArchitecture WatchKit AppTests.xctest */,
-				1E11560B2804139A00231313 /* Catalyst-iOS-Starter-CleanArchitecture WatchKit AppUITests.xctest */,
+				1ED9C8CE2806D4C800F6E52C /* Catalyst-iOS-Starter-CleanArchitecture-SwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -240,6 +240,7 @@
 		1E1155E22804139700231313 /* Catalyst-iOS-Starter-CleanArchitecture WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				1EB480AA280E9A6A00FE885B /* Catalyst-iOS-Starter-CleanArchitecture WatchKit App.entitlements */,
 				1E1155E32804139700231313 /* Interface.storyboard */,
 				1E1155E62804139800231313 /* Assets.xcassets */,
 			);
@@ -249,6 +250,7 @@
 		1E1155F02804139900231313 /* Catalyst-iOS-Starter-CleanArchitecture WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				1EB480AB280E9A8400FE885B /* Catalyst-iOS-Starter-CleanArchitecture WatchKit Extension.entitlements */,
 				1E1155F12804139900231313 /* InterfaceController.swift */,
 				1E1155F32804139900231313 /* ExtensionDelegate.swift */,
 				1E1155F52804139900231313 /* NotificationController.swift */,
@@ -260,21 +262,40 @@
 			path = "Catalyst-iOS-Starter-CleanArchitecture WatchKit Extension";
 			sourceTree = "<group>";
 		};
-		1E1156042804139A00231313 /* Catalyst-iOS-Starter-CleanArchitecture WatchKit AppTests */ = {
+		1E6334352808217B00AF8D0C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1E1156052804139A00231313 /* Catalyst_iOS_Starter_CleanArchitecture_WatchKit_AppTests.swift */,
 			);
-			path = "Catalyst-iOS-Starter-CleanArchitecture WatchKit AppTests";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1E11560E2804139A00231313 /* Catalyst-iOS-Starter-CleanArchitecture WatchKit AppUITests */ = {
+		1ED9C8CF2806D4C800F6E52C /* Catalyst-iOS-Starter-CleanArchitecture-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				1E11560F2804139A00231313 /* Catalyst_iOS_Starter_CleanArchitecture_WatchKit_AppUITests.swift */,
-				1E1156112804139A00231313 /* Catalyst_iOS_Starter_CleanArchitecture_WatchKit_AppUITestsLaunchTests.swift */,
+				1EB480A9280E960D00FE885B /* Catalyst-iOS-Starter-CleanArchitecture-SwiftUI.entitlements */,
+				1ED9C8DC2806D50000F6E52C /* Mainboard */,
+				1ED9C8D02806D4C800F6E52C /* Catalyst_iOS_Starter_CleanArchitecture_SwiftUIApp.swift */,
+				1ED9C8D42806D4CA00F6E52C /* Assets.xcassets */,
+				1ED9C8D62806D4CA00F6E52C /* Preview Content */,
 			);
-			path = "Catalyst-iOS-Starter-CleanArchitecture WatchKit AppUITests";
+			path = "Catalyst-iOS-Starter-CleanArchitecture-SwiftUI";
+			sourceTree = "<group>";
+		};
+		1ED9C8D62806D4CA00F6E52C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1ED9C8D72806D4CA00F6E52C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1ED9C8DC2806D50000F6E52C /* Mainboard */ = {
+			isa = PBXGroup;
+			children = (
+				1ED9C8D22806D4C800F6E52C /* MainboardView.swift */,
+				1ED9C8DD2806D52100F6E52C /* MainboardViewModel.swift */,
+			);
+			path = Mainboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,41 +390,26 @@
 			productReference = 1E1155EC2804139900231313 /* Catalyst-iOS-Starter-CleanArchitecture WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
-		1E1156002804139A00231313 /* Catalyst-iOS-Starter-CleanArchitecture WatchKit AppTests */ = {
+		1ED9C8CD2806D4C800F6E52C /* Catalyst-iOS-Starter-CleanArchitecture-SwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E1156262804139A00231313 /* Build configuration list for PBXNativeTarget "Catalyst-iOS-Starter-CleanArchitecture WatchKit AppTests" */;
+			buildConfigurationList = 1ED9C8DB2806D4CA00F6E52C /* Build configuration list for PBXNativeTarget "Catalyst-iOS-Starter-CleanArchitecture-SwiftUI" */;
 			buildPhases = (
-				1E1155FD2804139A00231313 /* Sources */,
-				1E1155FE2804139A00231313 /* Frameworks */,
-				1E1155FF2804139A00231313 /* Resources */,
+				1ED9C8CA2806D4C800F6E52C /* Sources */,
+				1ED9C8CB2806D4C800F6E52C /* Frameworks */,
+				1ED9C8CC2806D4C800F6E52C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1E1156032804139A00231313 /* PBXTargetDependency */,
 			);
-			name = "Catalyst-iOS-Starter-CleanArchitecture WatchKit AppTests";
-			productName = "Catalyst-iOS-Starter-CleanArchitecture WatchKit AppTests";
-			productReference = 1E1156012804139A00231313 /* Catalyst-iOS-Starter-CleanArchitecture WatchKit AppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		1E11560A2804139A00231313 /* Catalyst-iOS-Starter-CleanArchitecture WatchKit AppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1E1156292804139A00231313 /* Build configuration list for PBXNativeTarget "Catalyst-iOS-Starter-CleanArchitecture WatchKit AppUITests" */;
-			buildPhases = (
-				1E1156072804139A00231313 /* Sources */,
-				1E1156082804139A00231313 /* Frameworks */,
-				1E1156092804139A00231313 /* Resources */,
+			name = "Catalyst-iOS-Starter-CleanArchitecture-SwiftUI";
+			packageProductDependencies = (
+				1E8939022806D9DF00F7C790 /* UseCase */,
+				1E6334362808217B00AF8D0C /* CustomViews */,
 			);
-			buildRules = (
-			);
-			dependencies = (
-				1E11560D2804139A00231313 /* PBXTargetDependency */,
-			);
-			name = "Catalyst-iOS-Starter-CleanArchitecture WatchKit AppUITests";
-			productName = "Catalyst-iOS-Starter-CleanArchitecture WatchKit AppUITests";
-			productReference = 1E11560B2804139A00231313 /* Catalyst-iOS-Starter-CleanArchitecture WatchKit AppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			productName = "Catalyst-iOS-Starter-CleanArchitecture-SwiftUI";
+			productReference = 1ED9C8CE2806D4C800F6E52C /* Catalyst-iOS-Starter-CleanArchitecture-SwiftUI.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -432,13 +438,8 @@
 					1E1155EB2804139900231313 = {
 						CreatedOnToolsVersion = 13.3;
 					};
-					1E1156002804139A00231313 = {
-						CreatedOnToolsVersion = 13.3;
-						TestTargetID = 1E1155EB2804139900231313;
-					};
-					1E11560A2804139A00231313 = {
-						CreatedOnToolsVersion = 13.3;
-						TestTargetID = 1E1155DD2804139700231313;
+					1ED9C8CD2806D4C800F6E52C = {
+						CreatedOnToolsVersion = 13.3.1;
 					};
 				};
 			};
@@ -460,8 +461,7 @@
 				1E1155D32804139700231313 /* Catalyst-iOS-Starter-CleanArchitectureUITests */,
 				1E1155DD2804139700231313 /* Catalyst-iOS-Starter-CleanArchitecture WatchKit App */,
 				1E1155EB2804139900231313 /* Catalyst-iOS-Starter-CleanArchitecture WatchKit Extension */,
-				1E1156002804139A00231313 /* Catalyst-iOS-Starter-CleanArchitecture WatchKit AppTests */,
-				1E11560A2804139A00231313 /* Catalyst-iOS-Starter-CleanArchitecture WatchKit AppUITests */,
+				1ED9C8CD2806D4C800F6E52C /* Catalyst-iOS-Starter-CleanArchitecture-SwiftUI */,
 			);
 		};
 /* End PBXProject section */
@@ -508,17 +508,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1E1155FF2804139A00231313 /* Resources */ = {
+		1ED9C8CC2806D4C800F6E52C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1E1156092804139A00231313 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				1ED9C8D82806D4CA00F6E52C /* Preview Assets.xcassets in Resources */,
+				1ED9C8D52806D4CA00F6E52C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,20 +558,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1E1155FD2804139A00231313 /* Sources */ = {
+		1ED9C8CA2806D4C800F6E52C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E1156062804139A00231313 /* Catalyst_iOS_Starter_CleanArchitecture_WatchKit_AppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1E1156072804139A00231313 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1E1156102804139A00231313 /* Catalyst_iOS_Starter_CleanArchitecture_WatchKit_AppUITests.swift in Sources */,
-				1E1156122804139A00231313 /* Catalyst_iOS_Starter_CleanArchitecture_WatchKit_AppUITestsLaunchTests.swift in Sources */,
+				1ED9C8DE2806D52100F6E52C /* MainboardViewModel.swift in Sources */,
+				1ED9C8D32806D4C800F6E52C /* MainboardView.swift in Sources */,
+				1ED9C8D12806D4C800F6E52C /* Catalyst_iOS_Starter_CleanArchitecture_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,16 +590,6 @@
 			isa = PBXTargetDependency;
 			target = 1E1155EB2804139900231313 /* Catalyst-iOS-Starter-CleanArchitecture WatchKit Extension */;
 			targetProxy = 1E1155EE2804139900231313 /* PBXContainerItemProxy */;
-		};
-		1E1156032804139A00231313 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1E1155EB2804139900231313 /* Catalyst-iOS-Starter-CleanArchitecture WatchKit Extension */;
-			targetProxy = 1E1156022804139A00231313 /* PBXContainerItemProxy */;
-		};
-		1E11560D2804139A00231313 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1E1155DD2804139700231313 /* Catalyst-iOS-Starter-CleanArchitecture WatchKit App */;
-			targetProxy = 1E11560C2804139A00231313 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -756,8 +734,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Catalyst-iOS-Starter-CleanArchitecture WatchKit Extension/Catalyst-iOS-Starter-CleanArchitecture WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3M9Q59L75G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Catalyst-iOS-Starter-CleanArchitecture WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Catalyst-iOS-Starter-CleanArchitecture WatchKit Extension";
@@ -786,6 +766,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Catalyst-iOS-Starter-CleanArchitecture WatchKit Extension/Catalyst-iOS-Starter-CleanArchitecture WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -819,8 +800,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Catalyst-iOS-Starter-CleanArchitecture WatchKit App/Catalyst-iOS-Starter-CleanArchitecture WatchKit App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3M9Q59L75G;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Catalyst_iOS_Starter_CleanArchitecture_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = "Catalyst-iOS-Starter-CleanArchitecture WatchKit App";
@@ -844,6 +827,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Catalyst-iOS-Starter-CleanArchitecture WatchKit App/Catalyst-iOS-Starter-CleanArchitecture WatchKit App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1003,81 +987,68 @@
 			};
 			name = Release;
 		};
-		1E1156272804139A00231313 /* Debug */ = {
+		1ED9C8D92806D4CA00F6E52C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Catalyst-iOS-Starter-CleanArchitecture-SwiftUI/Catalyst-iOS-Starter-CleanArchitecture-SwiftUI.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Catalyst-iOS-Starter-CleanArchitecture-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 3M9Q59L75G;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtworks.Catalyst-iOS-Starter-CleanArchitecture-WatchKit-AppTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtworks.Catalyst-iOS-Starter-CleanArchitecture-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Catalyst-iOS-Starter-CleanArchitecture WatchKit Extension.appex/Catalyst-iOS-Starter-CleanArchitecture WatchKit Extension";
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1E1156282804139A00231313 /* Release */ = {
+		1ED9C8DA2806D4CA00F6E52C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Catalyst-iOS-Starter-CleanArchitecture-SwiftUI/Catalyst-iOS-Starter-CleanArchitecture-SwiftUI.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Catalyst-iOS-Starter-CleanArchitecture-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 3M9Q59L75G;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtworks.Catalyst-iOS-Starter-CleanArchitecture-WatchKit-AppTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtworks.Catalyst-iOS-Starter-CleanArchitecture-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Catalyst-iOS-Starter-CleanArchitecture WatchKit Extension.appex/Catalyst-iOS-Starter-CleanArchitecture WatchKit Extension";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
-			};
-			name = Release;
-		};
-		1E11562A2804139A00231313 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtworks.Catalyst-iOS-Starter-CleanArchitecture-WatchKit-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_TARGET_NAME = "Catalyst-iOS-Starter-CleanArchitecture WatchKit App";
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
-			};
-			name = Debug;
-		};
-		1E11562B2804139A00231313 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtworks.Catalyst-iOS-Starter-CleanArchitecture-WatchKit-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_TARGET_NAME = "Catalyst-iOS-Starter-CleanArchitecture WatchKit App";
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
 			};
 			name = Release;
 		};
@@ -1138,25 +1109,27 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1E1156262804139A00231313 /* Build configuration list for PBXNativeTarget "Catalyst-iOS-Starter-CleanArchitecture WatchKit AppTests" */ = {
+		1ED9C8DB2806D4CA00F6E52C /* Build configuration list for PBXNativeTarget "Catalyst-iOS-Starter-CleanArchitecture-SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1E1156272804139A00231313 /* Debug */,
-				1E1156282804139A00231313 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1E1156292804139A00231313 /* Build configuration list for PBXNativeTarget "Catalyst-iOS-Starter-CleanArchitecture WatchKit AppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1E11562A2804139A00231313 /* Debug */,
-				1E11562B2804139A00231313 /* Release */,
+				1ED9C8D92806D4CA00F6E52C /* Debug */,
+				1ED9C8DA2806D4CA00F6E52C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1E6334362808217B00AF8D0C /* CustomViews */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CustomViews;
+		};
+		1E8939022806D9DF00F7C790 /* UseCase */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UseCase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1E1155AC2804139300231313 /* Project object */;
 }
